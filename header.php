@@ -46,7 +46,7 @@
 </head>
 
 
-<body class=" <?php if ( show_template() == 'homepage.php' )echo ' home rightsidebar '; if ( show_template() == 'single.php' )echo ' single single-post rightsidebar';if (show_template() == 'search.php')echo 'search search-results list-view rightsidebar' ; if ( show_template() == '404.php' )echo ' error404 full-width '; if ( show_template() == 'blog.php' )echo ' home rightsidebar '; if ( show_template() == 'archive.php' )echo ' archive category rightsidebar list-view '; if ( show_template() == 'page.php' )echo ' page rightsidebar ';  if ( show_template() == 'author.php' )echo ' archive author rightsidebar list-view ';?>">
+<body class=" <?php if ( show_template() == 'homepage-template.php' )echo ' home rightsidebar '; if ( show_template() == 'single.php' )echo ' single single-post rightsidebar';if (show_template() == 'search.php')echo 'search search-results list-view rightsidebar' ; if ( show_template() == '404.php' )echo ' error404 full-width '; if ( show_template() == 'blog.php' )echo ' home rightsidebar '; if ( show_template() == 'archive.php' )echo ' archive category rightsidebar list-view '; if ( show_template() == 'page.php' )echo ' page rightsidebar ';  if ( show_template() == 'author.php' )echo ' archive author rightsidebar list-view ';?>">
 	
 	<div id="page" class="site">
 
